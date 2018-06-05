@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+.hero {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000 url(../Home/img/background.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: solid 4px #fffe00; }

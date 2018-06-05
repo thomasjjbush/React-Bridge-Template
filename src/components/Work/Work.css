@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+.work {
+  width: 100%; }
+  .work__examples__example {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse; }
+    .work__examples__example .block {
+      width: 50%;
+      display: inline-block;
+      background: #ffffff; }
+      @media (max-width: 768px) {
+        .work__examples__example .block {
+          width: 100%;
+          display: block; } }
+    .work__examples__example--text h3 {
+      font-family: Anton;
+      background: #000000;
+      color: #fffe00;
+      margin: 0px;
+      padding: 5%; }
+    .work__examples__example--text .description {
+      padding: 5%; }
+      .work__examples__example--text .description p {
+        font-family: Arial;
+        color: #000000;
+        margin: 0px; }
+    .work__examples__example--img {
+      background-color: #000000;
+      background-size: cover;
+      background-position: right bottom;
+      filter: grayscale(80%);
+      transition: filter 0.25s ease-in-out; }
+      .work__examples__example--img.test1 {
+        background: url(./img/test1.jpg); }
+      .work__examples__example--img.test2 {
+        background: url(./img/test2.jpg); }
+      .work__examples__example--img.test3 {
+        background: url(./img/test3.jpg); }
+      .work__examples__example--img.test4 {
+        background: url(./img/test4.jpg); }
+      .work__examples__example--img.test5 {
+        background: url(./img/test5.jpg); }
+      @media (max-width: 768px) {
+        .work__examples__example--img {
+          height: 200px; } }
+      .work__examples__example--img:hover {
+        filter: grayscale(0%); }

@@ -1,0 +1,49 @@
+@import "../../root/Variables/Variables";
+
+.contact {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 2.5%;
+        &__form {
+            flex: 2;
+            padding-right: 2.5%;
+            input {
+                border: 0;
+                padding: 0 10px;
+                outline: 0;
+                appearance: none;
+                display: block;
+                height: 40px;
+                width: 100%;
+                background-color: $PrimaryBlack;
+                color: $PrimaryWhite;
+                border-left: solid 4px $PrimaryYellow;
+                margin-bottom: 2.5%;
+                &[type="submit"] {
+                    font-family: $Impact;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    background-color: $PrimaryYellow;
+                    color: $PrimaryBlack;
+                    border-left: solid 4px $PrimaryBlack;
+                }
+            }
+        }
+        &__maps {
+            display: block;
+            width: 300px;
+            height: 300px;
+        }
+        @media (max-width: $IpadPortrait) {
+            flex-direction: column;
+            &__form {
+                padding-right: 0;
+            }
+            &__maps {
+                width: 100%;
+                height: auto;  
+            }
+        }
+    }  
+}

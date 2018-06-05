@@ -1,0 +1,13 @@
+@import "../../root/Variables/Variables";
+
+.hero {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000 url(../Home/img/background.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid 4px $PrimaryYellow;
+}

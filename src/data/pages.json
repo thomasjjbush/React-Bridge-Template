@@ -1,0 +1,24 @@
+{
+    "pages" : [
+        {
+            "name" : "Home",
+            "path" : "",
+            "component" : "Home"
+        },
+        {
+            "name" : "About us",
+            "path" : "aboutus",
+            "component" : "AboutUs"
+        },
+        {
+            "name" : "Our Work",
+            "path" : "ourwork",
+            "component" : "OurWork"
+        },
+        {
+            "name" : "Contact us",
+            "path" : "contactus",
+            "component" : "ContactUs"
+        }
+    ]
+}

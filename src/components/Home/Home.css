@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+.home {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000 url(img/background.jpg) center no-repeat;
+  background-size: cover; }
+  .home__content {
+    width: 95%;
+    max-width: 650px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5%; }
+    @media (max-width: 768px) {
+      .home__content {
+        flex-direction: column; }
+        .home__content__title {
+          padding-bottom: 5%; }
+        .home__content__typist {
+          font-size: 16px; } }
+    .home__content__title {
+      font-family: Anton;
+      text-transform: uppercase;
+      position: relative;
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 10px; }
+      .home__content__title:before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../../root/Index/img/logo-dark.png) center no-repeat;
+        background-size: 100%;
+        position: absolute;
+        left: -30px; }
+    .home__content__typist {
+      font-family: Arial;
+      font-size: 30px; }
+      .home__content__typist .Cursor--blinking {
+        animation: blinking 1.5s forwards infinite; }
+
+@keyframes blinking {
+  0% {
+    opacity: 1; }
+  49% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+      @media (max-width: 768px) {
+        .home__content__typist {
+          font-size: 16px; } }

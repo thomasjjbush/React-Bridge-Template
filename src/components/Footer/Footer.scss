@@ -1,0 +1,17 @@
+@import "../../root/Variables/Variables";
+
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $PrimaryBlack;
+    border-top: solid 4px $PrimaryYellow;
+    * {
+        cursor: pointer;
+        &:nth-child(2) {
+            margin: 0 20px;
+        }    
+    }
+}

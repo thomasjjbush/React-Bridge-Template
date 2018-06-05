@@ -1,0 +1,34 @@
+{
+    "form" : [
+        {
+            "name" : "firstName",
+            "placeholder" : "Your first name",
+            "type" : "text",
+            "value" : ""
+        },
+        {
+            "name" : "secondName",
+            "placeholder" : "Your second name",
+            "type" : "text",
+            "value" : ""
+        },
+        {
+            "name" : "email",
+            "placeholder" : "Your email address",
+            "type" : "email",
+            "value" : ""
+        },
+        {
+            "name" : "random",
+            "placeholder" : "Some other peice of info",
+            "type" : "text",
+            "value" : ""
+        },
+        {
+            "name" : "submit",
+            "placeholder" : "",
+            "type" : "submit",
+            "value" : "Submit"
+        }
+    ]
+}

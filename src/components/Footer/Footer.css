@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border-top: solid 4px #fffe00; }
+  .footer * {
+    cursor: pointer; }
+    .footer *:nth-child(2) {
+      margin: 0 20px; }

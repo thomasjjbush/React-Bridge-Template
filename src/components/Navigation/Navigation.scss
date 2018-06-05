@@ -1,0 +1,81 @@
+@import "../../root/Variables/Variables";
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1.5%;
+    font-family: $Impact;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    z-index: 1001;
+    &__logo {
+        width: 3.5vw;
+        height: 3.5vw;
+        background: #000 url(../../root/Index/img/logo-light.png) center no-repeat;
+        background-size: 55%;
+        box-sizing: content-box;
+        border: solid 20px $PrimaryWhite;
+        box-shadow: 0px 5px 24px -3px rgba(0,0,0,0.75);
+    }
+    &__links {
+        max-width: 60%;
+        display: flex;
+        flex: 2;
+        justify-content: space-between;
+        background: $PrimaryBlack;
+        padding: 20px;
+        &__link {
+            cursor: pointer;
+            color: $PrimaryWhite;
+            text-decoration: none;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+            &:after {
+                content: "";
+                display: block;
+                height: 0.6vw;
+                margin: 13% 0 0 0;
+                transition: background-position 0.3s ease-in-out;
+                background: linear-gradient(to right, $PrimaryYellow 50%, $PrimaryWhite 50%);
+                background-size: 200% 100%;
+                background-position: right bottom;
+            }
+            &--active {
+                color: $PrimaryYellow;
+                &:after {
+                    background-position: left bottom;
+                }
+            }
+            &:hover {
+                &:after {
+                    background-position: left bottom;
+                }
+            }
+        }
+    }
+    // breakpoints
+    @media (max-width: $IpadLandscape) {
+        &__logo {
+            width: 5.5vw;
+            height: 5.5vw;
+        }
+        &__links {
+            &__link {
+                font-size: 2.5vw;
+            }
+        }
+    }
+    @media (max-width: $IpadPortrait) {
+        flex-direction: column;
+        &__logo {
+            display: none;
+        }
+        &__links {
+            max-width: 100%;
+            &__link {
+                font-size: 5vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "about" : [
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Founded, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Something else, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "A Third thing, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lonsectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Number four, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Lastly, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Founded, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Something else, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "A Third thing, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lonsectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Number four, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        },
+        {
+            "classes" : {
+                "block" : "vertical-timeline-element--work",
+                "title" : "vertical-timeline-element-title",
+                "subtitle" : "vertical-timeline-element-subtitle"
+            },
+            "content" : {
+                "title" : "Lastly, 2018",
+                "subtitle" : "London, UK",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        }
+    ]
+}

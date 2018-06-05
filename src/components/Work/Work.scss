@@ -1,0 +1,57 @@
+@import "../../root/Variables/Variables";
+
+.work {
+    width: 100%;
+    &__examples {
+        &__example {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap-reverse;
+            .block {
+                width: 50%;
+                display: inline-block;
+                background: $PrimaryWhite;
+                @media (max-width: $IpadPortrait) {
+                    width: 100%;
+                    display: block;   
+                }
+            }
+            &--text {
+                h3 { 
+                    font-family: $Impact;
+                    background: $PrimaryBlack;
+                    color: $PrimaryYellow;
+                    margin: $Text;
+                    padding: 5%;
+                }
+                .description {
+                    padding: 5%;
+                    p {
+                        font-family: $Arial;
+                        color: $PrimaryBlack;
+                        margin: $Text; 
+                    }
+                }
+            }
+            &--img {
+                background-color: $PrimaryBlack;
+                background-size: cover;
+                background-position: right bottom;
+                filter: grayscale(80%);
+                transition: filter 0.25s ease-in-out;
+                &.test1 { background: url(./img/test1.jpg); }
+                &.test2 { background: url(./img/test2.jpg); }
+                &.test3 { background: url(./img/test3.jpg); }
+                &.test4 { background: url(./img/test4.jpg); }
+                &.test5 { background: url(./img/test5.jpg); }
+                @media (max-width: $IpadPortrait) {
+                    height: 200px;   
+                }
+                &:hover {
+                    filter: grayscale(0%);  
+                }
+            }
+        }
+    }
+}

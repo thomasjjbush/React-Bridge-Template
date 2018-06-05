@@ -1,0 +1,65 @@
+@import "../../root/Variables/Variables";
+
+.home {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000 url(img/background.jpg) center no-repeat;
+    background-size: cover;
+    &__content {
+        width: 95%;
+        max-width: 650px;
+        background: $PrimaryWhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5%;
+        @media (max-width: $IpadPortrait) {
+            flex-direction: column;  
+            &__title {
+                padding-bottom: 5%;
+            }
+            &__typist {
+                font-size: 16px;
+            }
+        }
+        &__title {
+            font-family: $Impact;
+            text-transform: uppercase;
+            position: relative;
+            font-size: 30px;
+            line-height: 30px;
+            margin: 0 10px;
+            &:before {
+                content: "";
+                display: block;
+                width: 30px;
+                height: 30px;
+                background: url(../../root/Index/img/logo-dark.png) center no-repeat;
+                background-size: 100%;
+                position: absolute;
+                left: -30px;
+            }
+        }
+        &__typist {
+            font-family: Arial;
+            font-size: 30px;
+            .Cursor {
+                &--blinking {
+                    animation: blinking 1.5s forwards infinite;
+                    @keyframes blinking {
+                        0%   { opacity: 1; }
+                        49%  { opacity: 1; }
+                        50%  { opacity: 0; }
+                        100% { opacity: 0; }
+                    }
+                }
+            }
+            @media (max-width: $IpadPortrait) {
+                font-size: 16px;
+            }
+        }
+    }
+}

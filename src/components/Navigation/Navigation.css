@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1.5%;
+  font-family: Anton;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1001; }
+  .navigation__logo {
+    width: 3.5vw;
+    height: 3.5vw;
+    background: #000 url(../../root/Index/img/logo-light.png) center no-repeat;
+    background-size: 55%;
+    box-sizing: content-box;
+    border: solid 20px #ffffff;
+    box-shadow: 0px 5px 24px -3px rgba(0, 0, 0, 0.75); }
+  .navigation__links {
+    max-width: 60%;
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    background: #000000;
+    padding: 20px; }
+    .navigation__links__link {
+      cursor: pointer;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.5vw;
+      text-transform: uppercase; }
+      .navigation__links__link:after {
+        content: "";
+        display: block;
+        height: 0.6vw;
+        margin: 13% 0 0 0;
+        transition: background-position 0.3s ease-in-out;
+        background: linear-gradient(to right, #fffe00 50%, #ffffff 50%);
+        background-size: 200% 100%;
+        background-position: right bottom; }
+      .navigation__links__link--active {
+        color: #fffe00; }
+        .navigation__links__link--active:after {
+          background-position: left bottom; }
+      .navigation__links__link:hover:after {
+        background-position: left bottom; }
+  @media (max-width: 1024px) {
+    .navigation__logo {
+      width: 5.5vw;
+      height: 5.5vw; }
+    .navigation__links__link {
+      font-size: 2.5vw; } }
+  @media (max-width: 768px) {
+    .navigation {
+      flex-direction: column; }
+      .navigation__logo {
+        display: none; }
+      .navigation__links {
+        max-width: 100%; }
+        .navigation__links__link {
+          font-size: 5vw; } }
